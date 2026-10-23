@@ -75,7 +75,7 @@
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse : 18_ 
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
