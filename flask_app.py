@@ -28,9 +28,6 @@ def accueil():
 def presentation():
     return "Je veux mon nom dans le Figaro, je suis avec ##### à Reuilly-Diderot"
 
-@app.get("/presentation")
-def presentation():
-    return "Je veux mon nom dans le Figaro, je suis avec ##### à Reuilly-Diderot"
 
 
 # ---------------------------------------------------------------
