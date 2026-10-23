@@ -59,11 +59,11 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :Le graphiste peut se concentrer uniquement sur le design, l'ergonomie (UI/UX) et l'intégration HTML/CSS. et le developpeur se concentre sur la logique de l'application, la sécurité et les performances en Python._ 
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :par le navigateur car dans flask.app on définit le prenom et le nom, ce n'est plus hard codé_ 
 
 ---
 
@@ -71,7 +71,7 @@
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : CSS est destiné à l'esthétique alors l'html est pour tout ce qui est texte_ 
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
@@ -79,7 +79,7 @@
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :ça permet d'actualiser la page_ 
 
 ---
 
@@ -87,7 +87,7 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : ça signifie HyperText Transfer Protocol, La requête est envoyée par le client, et la réponse par le serveur_ 
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
