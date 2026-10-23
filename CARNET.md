@@ -139,15 +139,18 @@
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :4xx = requête erroné côté client, 5xx = non traitement de la requête coté serveur_ 
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :1. Le navigateur envoie une première requête HTTP pour une adresse.
+2. Le serveur reçoit la requête et répond avec un code de statut de la famille 3xx (par exemple 301 pour permanent ou 302 pour temporaire).
+3. Dans cette réponse, le serveur inclut un en-tête spécial appelé Location qui indique la nouvelle adresse où se trouve la ressource
+4. Dès réception de ce code 3xx et de l'en-tête Location, c'est le navigateur qui initie automatiquement et de sa propre initiative une deuxième requête HTTP vers la nouvelle adresse _ 
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Le navigateur_ 
 
 ---
 
