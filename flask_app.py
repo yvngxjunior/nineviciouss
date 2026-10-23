@@ -35,7 +35,7 @@ def presentation():
         <li>Money</li>
         <li>Bands</li>
     </ul>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_aE0R8f7vZLcjYCMZP59br0HBrGkzZwpTm7opCNOnf6AzU6q6LQ75f8&s=10" width="100">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_aE0R8f7vZLcjYCMZP59br0HBrGkzZwpTm7opCNOnf6AzU6q6LQ75f8&s=10" width="1000">
     """
 
 @app.get("/loisirs")
