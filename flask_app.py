@@ -26,7 +26,20 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "Je veux mon nom dans le Figaro, je suis avec ##### à Reuilly-Diderot"
+    return """
+    <h1>Léa Martin</h1>
+    <pJe veux mon<strong>nom dans le Figaro, je suis avec une  #### à Reuilly-Diderot</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Guap</li>
+        <li>Money</li>
+        <li>Bands</li>
+    </ul>
+    """
+
+@app.get("/loisirs")
+def loisirs():
+    return "When i needed guap, I aint get not helping hands"
 
 
 
