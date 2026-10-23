@@ -18,8 +18,7 @@ app = Flask(__name__)
 # Flask exécute la fonction accueil() et renvoie son résultat au navigateur.
 @app.get("/")
 def accueil():
-    return "Avec mon twin on est lié comme des siamois, Elle recherche mon mini moi,Il est mort depuis des mois"
-
+    return render_template("accueil.html")
 
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
