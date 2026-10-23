@@ -178,15 +178,16 @@
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : json c'est de la donnée brut alors que html est strucutré_ 
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : 100 % du code logique de l'API s'exécute ici.
+C'est le serveur qui reçoit la demande et prépare la réponse. c'est du JSON puis sur le navigateur s'exécute le html et css_ 
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :Google Maps qui échange les données de geolocalisation_ 
 
 ---
 
@@ -194,4 +195,8 @@
 
 En quelques phrases, expliquez à un ami ce qui se passe entre le moment où il tape une adresse dans son navigateur et celui où la page s'affiche :
 
-> _Ma réponse :_ 
+> _Ma réponse :Quand tu tapes une adresse web (comme google.com) et que tu valides, ton navigateur et ton ordinateur effectuent un véritable voyage en quelques millisecondes :
+• L'annuaire du web (DNS) : Ton navigateur ne comprend pas les mots, il a besoin d'un numéro (l'adresse IP). Il interroge un serveur DNS, sorte de grand annuaire mondial, pour traduire le nom du site en une suite de chiffres.
+• La connexion : Une fois l'adresse IP trouvée, ton navigateur contacte directement le serveur informatique qui héberge le site pour lui demander les données de la page.
+• Le voyage des données : Le serveur répond en découpant la page web en milliers de petits morceaux appelés "paquets". Ces paquets voyagent sur Internet via des câbles (souvent sous-marins) et la fibre jusqu'à ta box.
+• L'affichage : Ton navigateur réceptionne tous ces paquets, les réassemble, puis traduit les codes reçus (HTML, CSS) pour afficher le texte, les couleurs et les images sur ton écran_ 
