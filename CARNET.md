@@ -95,11 +95,11 @@
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : ça signfie que la requête et la réponse ont marche avec succès et le 404 c'est que le serveur n'a pas trouvé la requête demandé_ 
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : car c'est une modification au niveau du navigateur et non au niveau du serveur, donc cela n'affecte que nous et c'est temporaire._ 
 
 ---
 
